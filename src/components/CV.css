@@ -1,0 +1,11 @@
+.CV {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.CV h2 {
+  text-align: right;
+  margin-bottom: 2rem;
+}

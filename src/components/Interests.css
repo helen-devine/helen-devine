@@ -1,0 +1,114 @@
+/* Interests CSS */
+
+.fade-in-interests {
+  opacity: 0;
+  transform: translateY(15vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 300ms ease-out,
+    visibility 1200ms ease-out;
+  transition-delay: 0.1s;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-interests.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.interests-indiv-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  height: 100vh;
+}
+
+#dark .interests-indiv-item {
+  color: hsl(2, 60%, 85%);
+}
+
+.interests-flex-container-title-paragraph {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.interests-title {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.interests-paragraph {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  line-height: 1.3rem;
+}
+
+.Slider {
+  width: 65%;
+}
+
+@media screen and (max-width: 480px) {
+  .interests-indiv-item {
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+    justify-content: flex-start;
+  }
+  .interests-flex-container-title-paragraph {
+    width: 90%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .interests-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+  .interests-paragraph {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .interests-indiv-item {
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+  .interests-flex-container-title-paragraph {
+    width: 90%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .interests-indiv-item {
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    justify-content: flex-start;
+  }
+  .interests-flex-container-title-paragraph {
+    width: 90%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .interests-indiv-item {
+    height: 50rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .interests-indiv-item {
+    height: 45rem;
+  }
+}

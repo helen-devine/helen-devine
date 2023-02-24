@@ -1,0 +1,7 @@
+#light .header-background {
+  background: linear-gradient(90deg, hsl(2, 100%, 71%), hsl(234, 100%, 85%));
+}
+
+#dark .header-background {
+  background: none;
+}

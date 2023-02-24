@@ -1,0 +1,215 @@
+.fade-in-cv-timeline {
+  opacity: 0;
+  transform: translateX(5rem);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  transition-delay: 0.2s;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-cv-timeline.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-cv-timeline:nth-child(even) {
+  opacity: 0;
+  transform: translateX(-5rem);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-cv-timeline.is-visible:nth-child(even) {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.timeline-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-container::after {
+  background-color: hsl(2, 100%, 71%);
+  content: "";
+  position: absolute;
+  align-self: center;
+  width: 4px;
+  height: 100%;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  position: relative;
+  margin: 0.5rem 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.timeline-item-content {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  width: 80rem;
+  padding: 1.5rem;
+  position: relative;
+  background-color: white;
+}
+
+#dark .timeline-item-content {
+  background: hsl(234, 30%, 32%);
+  color: hsl(2, 60%, 85%);
+}
+
+.timeline-item-content::after {
+  content: "";
+  background-color: white;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+  width: 1.25rem;
+  height: 1.25rem;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -0.625rem;
+  top: calc(50% - 0.625rem);
+}
+
+#dark .timeline-item-content::after {
+  background: hsl(234, 30%, 32%);
+}
+
+.timeline-item-content .circle {
+  background-color: hsl(2, 100%, 71%);
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -40px;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .circle {
+  right: auto;
+  left: -40px;
+}
+
+.timeline-item:nth-child(even) .timeline-item-content::after {
+  left: auto;
+  right: -0.625rem;
+  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  background-color: hsl(0, 0%, 41%);
+  padding: 0.2rem;
+  color: white;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#dark .date {
+  background-color: hsl(2, 60%, 85%);
+  color: hsl(234, 30%, 10%);
+  font-weight: 500;
+}
+
+.cvtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .fade-in-cv-timeline {
+    transform: translateX(0rem);
+    transition-delay: 0.3s;
+  }
+  .fade-in-cv-timeline:nth-child(even) {
+    opacity: 0;
+    transform: translateX(0rem);
+    transition-delay: 0.3s;
+  }
+  .fade-in-cv-timeline.is-visible:nth-child(even) {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  .timeline-container::after {
+    align-self: flex-start;
+    margin-left: 20px;
+    width: 3px;
+  }
+  .timeline-item-content {
+    margin-left: 3rem;
+    max-width: 100%;
+  }
+  .timeline-item {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    padding-left: 10px;
+    margin: 2.5rem 0;
+    width: 100%;
+  }
+  .timeline-item:nth-child(odd) {
+    align-self: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+  .timeline-item:nth-child(even) .timeline-item-content::after {
+    left: -0.625rem;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .timeline-item-content .circle {
+    height: 15px;
+    width: 15px;
+    left: -44px;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .circle {
+    left: -44px;
+  }
+  .date {
+    font-size: 0.8rem;
+  }
+  .cvtitle {
+    font-size: 0.9rem;
+  }
+  .location {
+    font-size: 0.8rem;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+}

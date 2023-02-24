@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#light {
+  background: hsl(2, 100%, 98%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dark {
+  background: linear-gradient(180deg, hsl(234, 30%, 32%), hsl(234, 30%, 15%));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  height: 10rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.title {
+  font-family: "Astloch", cursive;
+  font-size: 3rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#dark .title {
+  color: hsl(2, 60%, 85%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+section {
+  margin: 6rem 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 6.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .title {
+    font-size: 2rem;
   }
+  section {
+    margin: 3rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  section {
+    margin: 4rem 10rem;
+  }
+}
+
+/* General Colours CSS */
+
+#light .gradient-background {
+  background: linear-gradient(90deg, hsl(2, 100%, 71%), hsl(234, 100%, 85%));
+}
+
+#dark .gradient-background {
+  background: none;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #7370ff;
+}
+
+.peach {
+  color: #ffb3a3;
+}
+
+/* Text CSS  */
+
+.sub-title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.07rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#dark .sub-title {
+  color: hsl(2, 60%, 85%);
+}
+
+#light .sub-title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .inter-white {
+    font-size: 0.85rem;
+  }
+  .inter-grey {
+    font-size: 0.8rem;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Footer CSS */
+
+.footer-container {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  background-color: hsl(2, 100%, 71%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+#dark .footer-container {
+  background: hsl(234, 30%, 22%);
+  color: hsl(2, 60%, 75%);
+}
+
+.fade-in-skills-contact {
+  opacity: 0;
+  transform: translateY(15vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 300ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-skills-contact.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }

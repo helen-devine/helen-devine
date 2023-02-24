@@ -1,0 +1,32 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+}
+
+.contact-links a {
+  transition: all 0.15s ease;
+}
+
+.contact-links a:active {
+  transform: translateY(-1rem);
+}
+
+.contact-icon {
+  height: 30px;
+  margin: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .contact-icon {
+    min-width: 35px;
+    margin: 0 1rem;
+  }
+}
