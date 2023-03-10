@@ -5,6 +5,7 @@ import "../components/Contact.css";
 
 import LinkedInIcon from "../components/SkillsImages/LinkedIn_icon_red.svg";
 import EmailIcon from "../components/SkillsImages/email-icon.svg";
+import GithubIcon from "../components/SkillsImages/github-icon.svg";
 function Contact() {
   const [isVisible, setVisible] = React.useState(true);
 
@@ -21,10 +22,11 @@ function Contact() {
         className={`contact-links fade-in-skills-contact ${
           isVisible ? "is-visible" : ""
         }`}>
-        <a
-          href="https://www.linkedin.com/in/helen-devine-273392196/"
-          target="_blank">
+        <a href="https://www.linkedin.com/in/helenkdevine/" target="_blank">
           <img className="contact-icon" src={LinkedInIcon} alt="" />
+        </a>
+        <a href="https://github.com/helen-devine" target="_blank">
+          <img className="contact-icon" src={GithubIcon} alt="" />
         </a>
         <a href="mailto: helenkdevine@gmail.com" target="_blank">
           <img className="contact-icon" src={EmailIcon} alt="" />

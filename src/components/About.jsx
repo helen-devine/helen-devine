@@ -28,10 +28,10 @@ function About() {
             isVisible ? "is-visible" : ""
           }`}>
           Welcome to my website! My name is Helen Devine and I am a front-end
-          web developer with a background in architecture. I just love designing
-          spaces and being creative! If you're interested in learning more about
-          me, you're in the right place. Right now, I am looking for new
-          opportunities, so don't hesitate in contacting me.
+          web developer with a background in architecture. I just love building
+          digital spaces and being creative! If you're interested in learning
+          more about me, you're in the right place. I am currently looking for
+          new opportunities, so don't hesitate in contacting me.
         </p>
       </div>
       <div className="about-image">

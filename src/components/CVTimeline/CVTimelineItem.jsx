@@ -22,6 +22,11 @@ const CVTimelineItem = ({ data }) => {
           <i>{data.location}</i>
         </h4>
         <p className="description">{data.description}</p>
+        {data.url && (
+          <a className="view-certificate" target="_blank" href={data.url}>
+            View Certificate
+          </a>
+        )}
         <span className="circle"></span>
       </div>
     </div>

@@ -12,16 +12,16 @@
 
 .toggler-scroll .theme-toggler {
   position: fixed;
-  top: 1.5rem;
+  top: calc(1.5rem - 3.125px);
 }
 
 .toggler-scroll .theme-toggler-circle {
   position: fixed;
-  top: calc(1.5rem + 1px);
+  top: calc(1.5rem - 2.125px);
 }
 
 .theme-toggler-circle {
-  transition: all 0.2s ease;
+  transition: 0.15s ease;
   z-index: 2;
   top: calc(5rem - 11.5px);
   position: absolute;

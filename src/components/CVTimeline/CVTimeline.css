@@ -150,6 +150,19 @@
   font-family: "Inter", sans-serif;
 }
 
+.view-certificate {
+  margin-top: 1rem;
+  font-family: "Inter", sans-serif;
+  color: hsl(2, 100%, 71%);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.15s ease;
+}
+
+.view-certificate:active {
+  transform: translateY(-0.5rem);
+}
+
 @media (max-width: 768px) {
   .fade-in-cv-timeline {
     transform: translateX(0rem);

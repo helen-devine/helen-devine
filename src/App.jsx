@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import ThemeToggler from "./components/ThemeToggler";
+import LanguageToggler from "./components/LanguageToggler";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Interests from "./components/Interests";
@@ -25,6 +26,7 @@ function App() {
         <Header />
         <Navbar />
         <ThemeToggler theme={theme} toggleTheme={toggleTheme} />
+        <LanguageToggler />
         <About />
         <div className="contents-container">
           <Skills />

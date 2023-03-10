@@ -12,6 +12,7 @@ export default [
     title: "The Web Developer Bootcamp",
     location: "Online - Udemy.com",
     description: "64-hour course learning HTML, CSS, JS, Node and more.",
+    url: "https://www.udemy.com/certificate/UC-3c8a955e-92e6-4b06-acfc-8da29790d028/",
   },
   {
     id: 3,
@@ -35,7 +36,7 @@ export default [
     title: "Korteknie Stuhlmacher Architecten",
     location: "Rotterdam, Netherlands",
     description:
-      "6-month internship at Korteknie Stuhlmacher Architecten. Responsibilities included: The production of digital models and visualisations for various projects, residential and public. Digital and physical model making for a competition. Interior architectecture research and design for various projects.",
+      "6-month internship at Korteknie Stuhlmacher Architecten. Responsibilities included: The production of digital models and visualisations for various projects, residential and civic. Digital and physical model making for a competition. Interior architectecture research and design for various projects.",
   },
   {
     id: 7,

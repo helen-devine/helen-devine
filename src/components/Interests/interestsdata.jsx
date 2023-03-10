@@ -60,7 +60,7 @@ const data = [
 
   {
     id: 3,
-    title: "Sewing",
+    title: "Dressmaking",
     description:
       "I taught myself to sew during the first Covid lockdown in 2020. This hobby has helped me to become more aware of the impact that fast fashion has on our planet, and appreciate the labour that goes into the clothes we buy. My favourite projects involve transforming old textiles into something new.",
     images: [

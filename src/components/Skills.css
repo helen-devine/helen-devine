@@ -3,19 +3,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .skills-container {
   display: flex;
   margin-bottom: 5rem;
   align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 #dark .skills-container {
   background: hsl(234, 30%, 32%);
-  padding: 1rem;
-  border-radius: 1rem;
 }
 
 .skill-img {
