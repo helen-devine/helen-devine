@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.173ca32d.css",
-    "main.js": "/static/js/main.253a3585.js",
+    "main.js": "/static/js/main.184a5d3c.js",
     "static/media/ksa_perspective_2.jpg": "/static/media/ksa_perspective_2.2e92e2b0064be21faf0b.jpg",
     "static/media/ksa_perspective_1.jpg": "/static/media/ksa_perspective_1.89d91256fdab47f7875c.jpg",
     "static/media/sewing_1.png": "/static/media/sewing_1.1c7a4a063177aa458219.png",
@@ -27,10 +27,10 @@
     "static/media/HTML5_logo.svg": "/static/media/HTML5_logo.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.173ca32d.css.map": "/static/css/main.173ca32d.css.map",
-    "main.253a3585.js.map": "/static/js/main.253a3585.js.map"
+    "main.184a5d3c.js.map": "/static/js/main.184a5d3c.js.map"
   },
   "entrypoints": [
     "static/css/main.173ca32d.css",
-    "static/js/main.253a3585.js"
+    "static/js/main.184a5d3c.js"
   ]
 }
