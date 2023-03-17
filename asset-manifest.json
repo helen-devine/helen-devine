@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.173ca32d.css",
-    "main.js": "/static/js/main.bfb24940.js",
-    "static/media/sewing_1.png": "/static/media/sewing_1.1c7a4a063177aa458219.png",
-    "static/media/sewing_2.png": "/static/media/sewing_2.582b54d02edffdd3a91e.png",
-    "static/media/orangesocks.jpeg": "/static/media/orangesocks.16edf4828e3c85159067.jpeg",
-    "static/media/ksa_perspective_2_smaller.jpg": "/static/media/ksa_perspective_2_smaller.db161f21a8a96d21f66e.jpg",
-    "static/media/knittingsample.jpg": "/static/media/knittingsample.a20935b0ea7def873013.jpg",
-    "static/media/ksa_perspective_1_smaller.jpg": "/static/media/ksa_perspective_1_smaller.306543123ffd4f16d729.jpg",
+    "main.js": "/static/js/main.9f5f56d4.js",
+    "static/media/orangesocks.jpg": "/static/media/orangesocks.8eaf2aaa6c18ceea7ecf.jpg",
+    "static/media/sewing_1.jpg": "/static/media/sewing_1.d50af3a70f6f58fec210.jpg",
+    "static/media/knittingsample_smaller.jpg": "/static/media/knittingsample_smaller.1633b56da58704193b3f.jpg",
+    "static/media/sewing_2.jpg": "/static/media/sewing_2.cc282a4cc5fa6c853341.jpg",
+    "static/media/ksa_perspective_1_smaller.jpg": "/static/media/ksa_perspective_1_smaller.4c26284a634da4485bc0.jpg",
+    "static/media/ksa_perspective_2_smaller.jpg": "/static/media/ksa_perspective_2_smaller.b88a9eb4825fa8d767d7.jpg",
     "static/media/fingerlessgloves_1.jpeg": "/static/media/fingerlessgloves_1.7e3f54aa5315b2509664.jpeg",
     "static/media/jdwa_axo1.png": "/static/media/jdwa_axo1.9ea63b2bee8201cebe43.png",
     "static/media/jdwa_axo2.png": "/static/media/jdwa_axo2.400230d1acf12438fd66.png",
@@ -27,10 +27,10 @@
     "static/media/HTML5_logo.svg": "/static/media/HTML5_logo.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.173ca32d.css.map": "/static/css/main.173ca32d.css.map",
-    "main.bfb24940.js.map": "/static/js/main.bfb24940.js.map"
+    "main.9f5f56d4.js.map": "/static/js/main.9f5f56d4.js.map"
   },
   "entrypoints": [
     "static/css/main.173ca32d.css",
-    "static/js/main.bfb24940.js"
+    "static/js/main.9f5f56d4.js"
   ]
 }
