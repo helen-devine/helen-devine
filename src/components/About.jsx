@@ -28,10 +28,9 @@ function About() {
             isVisible ? "is-visible" : ""
           }`}>
           Welcome to my website! My name is Helen Devine and I am a front-end
-          web developer with a background in architecture. I just love building
+          developer with a background in architecture. I just love building
           digital spaces and being creative! If you're interested in learning
-          more about me, you're in the right place. I am currently looking for
-          new opportunities, so don't hesitate in contacting me.
+          more about me, you're in the right place. I am currently working at <a href="https://wubbe.nl/">Wubbe</a> as a front-end developer and digital producer :)
         </p>
       </div>
       <div className="about-image">
