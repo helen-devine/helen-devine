@@ -1,13 +1,20 @@
 export default [
-  {
+    {
     id: 1,
+    date: "May 2023 - Present",
+    title: "WUBBE",
+    location: "Delft, Netherlands",
+    description: "Junior front-end developer and digital producer at creative digital agency",
+  },
+  {
+    id: 2,
     date: "October 2022 - December 2022",
     title: "Learn React for Free",
     location: "Online - Scrimba.com",
     description: "12-hour course learning the basics of modern React.",
   },
   {
-    id: 2,
+    id: 3,
     date: "January 2022 - September 2022",
     title: "The Web Developer Bootcamp",
     location: "Online - Udemy.com",
@@ -15,7 +22,7 @@ export default [
     url: "https://www.udemy.com/certificate/UC-3c8a955e-92e6-4b06-acfc-8da29790d028/",
   },
   {
-    id: 3,
+    id: 4,
     date: "August 2021 - November 2021",
     title: "Shop Assistant at Zara",
     location: "Rotterdam, Netherlands",
@@ -23,7 +30,7 @@ export default [
       "Working on the shop floor at popular fast-fashion retailer. Responsibilities included cleaning and care of merchandise, closing the store at night, and communication with customers.",
   },
   {
-    id: 4,
+    id: 5,
     date: "2020 - 2022",
     title: "Sagenn Educatie",
     location: "Rotterdam Netherlands",
