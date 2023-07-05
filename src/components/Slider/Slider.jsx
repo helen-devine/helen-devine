@@ -46,6 +46,7 @@ function Slider({ images }) {
       <div className="container-dots">
         {images.map((image, index) => (
           <div
+            key={index}
             onClick={() => moveDot(index + 1)}
             className={slideIndex === index + 1 ? "dot active" : "dot"}></div>
         ))}

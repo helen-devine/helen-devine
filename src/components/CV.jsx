@@ -1,10 +1,10 @@
 import CVTimeline from "./CVTimeline/CVTimeline";
 import "../components/CV.css";
-function CV() {
+function CV({ language }) {
   return (
     <section className="CV" id="cv">
       <h2 className="sub-title">CV</h2>
-      <CVTimeline />
+      <CVTimeline language={language} />
     </section>
   );
 }

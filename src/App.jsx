@@ -14,6 +14,15 @@ import Footer from "./components/Footer";
 export const ThemeContext = createContext(null);
 
 function App() {
+  //language toggler
+
+  const [language, setLanguage] = useState("en");
+
+  const toggleLanguage = () => {
+    setLanguage((currentLanguage) => (currentLanguage === "en" ? "nl" : "en"));
+  };
+
+  //dark and light mode toggler
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
@@ -24,17 +33,17 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <Header />
-        <Navbar />
+        <Navbar language={language} />
         <ThemeToggler theme={theme} toggleTheme={toggleTheme} />
-        <LanguageToggler />
-        <About />
+        <LanguageToggler language={language} toggleLanguage={toggleLanguage} />
+        <About language={language} />
         <div className="contents-container">
           <Skills />
-          <Interests />
-          <CV />
+          <Interests language={language} />
+          <CV language={language} />
           <Contact />
         </div>
-        <Footer />
+        <Footer language={language} />
       </div>
     </ThemeContext.Provider>
   );

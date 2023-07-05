@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "../components/LanguageToggler.css";
-function LanguageToggler(props) {
-  const [isStickyLangToggler, setStickyLangToggler] = useState(false);
 
+function LanguageToggler(props) {
+  //sticky scroller
+  const [isStickyLangToggler, setStickyLangToggler] = useState(false);
   const handleScrollEvent = () => {
     if (window.scrollY >= 80) {
       setStickyLangToggler(true);
@@ -15,14 +16,18 @@ function LanguageToggler(props) {
 
   return (
     <div
-      onClick={props.toggleTheme}
+      onClick={props.toggleLanguage}
       className={
         isStickyLangToggler ? "toggler-scroll-lang language" : "language"
       }>
-      <span value="English" className="lang-toggler">
+      <span
+        value="English"
+        className={props.language === "en" ? "" : "unfocused"}>
         EN
       </span>
-      <span value="Dutch" className="lang-toggler unfocused">
+      <span
+        value="Dutch"
+        className={props.language === "nl" ? "" : "unfocused"}>
         NL
       </span>
     </div>

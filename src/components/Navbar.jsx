@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { translate } from "./Translate";
 import "../components/Navbar.css";
-function Navbar() {
+function Navbar(props) {
   // makes nav stick to top of page while scrolling//
+
+  let content = {
+    interests: { en: "interests", nl: "interesses" },
+  };
+
+  let currentLanguage = props.language;
+
   const [isStickyNav, setStickyNav] = useState(false);
 
   const handleScrollEvent = () => {
@@ -33,7 +41,7 @@ function Navbar() {
           smooth={true}
           offset={-80}
           duration={500}>
-          interests
+          {translate(content.interests, currentLanguage)}
         </Link>
         <Link to="cv" spy={true} smooth={true} offset={-80} duration={500}>
           cv

@@ -1,7 +1,10 @@
 import React from "react";
 import { checkVisibility } from "../VisibilityChecker";
+import { translate } from "../Translate";
 
-const CVTimelineItem = ({ data }) => {
+const CVTimelineItem = ({ data, language }) => {
+  let currentLanguage = language;
+
   const [isVisible, setVisible] = React.useState(true);
 
   const domRef = React.useRef();
@@ -16,15 +19,21 @@ const CVTimelineItem = ({ data }) => {
         isVisible ? "is-visible" : ""
       }`}>
       <div className="timeline-item-content">
-        <span className="date">{data.date}</span>
-        <h3 className="cvtitle">{data.title}</h3>
+        <span className="date">{translate(data.date, currentLanguage)}</span>
+        <h3 className="cvtitle">{translate(data.title, currentLanguage)}</h3>
         <h4 className="location">
-          <i>{data.location}</i>
+          <i>{translate(data.location, currentLanguage)}</i>
         </h4>
-        <p className="description">{data.description}</p>
+        <p className="description">
+          {translate(data.description, currentLanguage)}
+        </p>
         {data.url && (
-          <a className="view-certificate" target="_blank" href={data.url}>
-            View Certificate
+          <a
+            className="view-certificate"
+            rel="noreferrer"
+            target="_blank"
+            href={data.url}>
+            {language === "en" ? "View Certificate" : "Certificaat Bikijken"}
           </a>
         )}
         <span className="circle"></span>
