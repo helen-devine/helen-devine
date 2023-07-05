@@ -3,7 +3,7 @@ const data = [
     id: 1,
     date: {
       en: "May 2023 - present",
-      nl: "Mei 2023 - nu",
+      nl: "Mei 2023 - heden",
     },
     title: "WUBBE",
     location: "Delft, Netherlands",
