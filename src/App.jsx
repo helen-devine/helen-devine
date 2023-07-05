@@ -39,8 +39,8 @@ function App() {
         <About language={language} />
         <div className="contents-container">
           <Skills />
-          <Interests language={language} />
           <CV language={language} />
+          <Interests language={language} />
           <Contact />
         </div>
         <Footer language={language} />

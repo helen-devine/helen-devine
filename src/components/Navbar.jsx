@@ -35,6 +35,9 @@ function Navbar(props) {
         <Link to="skills" spy={true} smooth={true} offset={-80} duration={500}>
           skills
         </Link>
+        <Link to="cv" spy={true} smooth={true} offset={-80} duration={500}>
+          cv
+        </Link>
         <Link
           to="interests"
           spy={true}
@@ -42,9 +45,6 @@ function Navbar(props) {
           offset={-80}
           duration={500}>
           {translate(content.interests, currentLanguage)}
-        </Link>
-        <Link to="cv" spy={true} smooth={true} offset={-80} duration={500}>
-          cv
         </Link>
         <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
           contact
