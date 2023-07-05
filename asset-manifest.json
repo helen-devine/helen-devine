@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b16820d9.css",
-    "main.js": "/static/js/main.e273cd59.js",
+    "main.js": "/static/js/main.f7454b8d.js",
     "static/media/orangesocks.jpg": "/static/media/orangesocks.8eaf2aaa6c18ceea7ecf.jpg",
     "static/media/sewing_1.jpg": "/static/media/sewing_1.d50af3a70f6f58fec210.jpg",
     "static/media/knittingsample_smaller.jpg": "/static/media/knittingsample_smaller.1633b56da58704193b3f.jpg",
@@ -29,10 +29,10 @@
     "static/media/HTML5_logo.svg": "/static/media/HTML5_logo.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/React-icon.svg": "/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.b16820d9.css.map": "/static/css/main.b16820d9.css.map",
-    "main.e273cd59.js.map": "/static/js/main.e273cd59.js.map"
+    "main.f7454b8d.js.map": "/static/js/main.f7454b8d.js.map"
   },
   "entrypoints": [
     "static/css/main.b16820d9.css",
-    "static/js/main.e273cd59.js"
+    "static/js/main.f7454b8d.js"
   ]
 }
