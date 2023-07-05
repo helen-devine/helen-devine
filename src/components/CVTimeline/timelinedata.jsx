@@ -2,6 +2,19 @@ const data = [
   {
     id: 1,
     date: {
+      en: "May 2023 - present",
+      nl: "Mei 2023 - nu",
+    },
+    title: "WUBBE",
+    location: "Delft, Netherlands",
+    description: {
+      en: "junior front-end developer and digital producer",
+      nl: "junior front-end developer en digital producer",
+    },
+  },
+  {
+    id: 2,
+    date: {
       en: "October 2022 - December 2022",
       nl: "Oktober 2022 - December 2022",
     },
@@ -13,7 +26,7 @@ const data = [
     },
   },
   {
-    id: 2,
+    id: 3,
     date: {
       en: "January 2022 - September 2022",
       nl: "Januari 2022 - September 2022",
@@ -27,7 +40,7 @@ const data = [
     url: "https://www.udemy.com/certificate/UC-3c8a955e-92e6-4b06-acfc-8da29790d028/",
   },
   {
-    id: 3,
+    id: 4,
     date: {
       en: "August 2021 - November 2021",
       nl: "Augustus 2021 - November 2021",
@@ -46,7 +59,7 @@ const data = [
     },
   },
   {
-    id: 4,
+    id: 5,
     date: "2020 - 2022",
     title: "Sagenn Educatie",
     location: {
@@ -59,7 +72,7 @@ const data = [
     },
   },
   {
-    id: 5,
+    id: 6,
     date: {
       en: "January 2020 - August 2020",
       nl: "Januari 2020 - Augustus 2020",
@@ -75,7 +88,7 @@ const data = [
     },
   },
   {
-    id: 6,
+    id: 7,
     date: "September 2015 - September 2019",
     title: {
       en: "MA Hons in Architecture from the University of Edinburgh",
@@ -91,7 +104,7 @@ const data = [
     },
   },
   {
-    id: 7,
+    id: 8,
     date: {
       en: "February 2018 - August 2018",
       nl: "Februari 2018 - Augustus 2018",
