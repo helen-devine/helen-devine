@@ -9,8 +9,8 @@ function About(props) {
   let content = {
     title: { en: "Hello!", nl: "Hallo!" },
     paragraph: {
-      en: `Welcome to my website! My name is Helen Devine and I am a front-end developer with a background in architecture. I just love building digital spaces and being creative! If you're interested in learning more about me, you're in the right place. I am currently looking for new opportunities, so don't hesitate in contacting me.`,
-      nl: `Welkom op mijn website! Mijn naam is Helen Devine en ik ben een front-end ontwikkelaar met een achtergrond in architectuur. Ik hou van ontwerpen een creëren! Als je geïnteresseerd bent om mij te leren kennen, ben je op de juiste plek. Momenteel ben ik op zoek naar een nieuwe baan, dus neem graag contact op`,
+      en: `Welcome to my website! My name is Helen Devine and I am a front-end developer based in Rotterdam. I love building intuitive and engaging digital spaces and being creative! If you're interested in learning more about me, you're in the right place. I am currently looking for new opportunities, so don't hesitate in contacting me.`,
+      nl: `Welkom op mijn website! Mijn naam is Helen Devine en ik ben een front-end developer in regio Rotterdam. Ik hou van bouwen van digital spaces een creëren! Als je geïnteresseerd bent om mij te leren kennen, ben je op de juiste plek. Momenteel ben ik op zoek naar een nieuwe baan, dus neem graag contact op`,
     },
   };
 
