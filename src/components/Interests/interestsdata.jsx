@@ -19,12 +19,12 @@ const data = [
       },
       {
         id: 3,
-        src: require("../Interests/interestsimages/ksa_perspective_1.jpg"),
+        src: require("../Interests/interestsimages/ksa_perspective_1_smaller.jpg"),
         alt: "visualusation of a cafe",
       },
       {
         id: 4,
-        src: require("../Interests/interestsimages/ksa_perspective_2.jpg"),
+        src: require("../Interests/interestsimages/ksa_perspective_2_smaller.jpg"),
         alt: "another visualisation of a cafe",
       },
       {
@@ -54,12 +54,12 @@ const data = [
       },
       {
         id: 2,
-        src: require("../Interests/interestsimages/orangesocks.jpeg"),
+        src: require("../Interests/interestsimages/orangesocks.jpg"),
         alt: "neon orange socks on a black and white background",
       },
       {
         id: 3,
-        src: require("../Interests/interestsimages/knittingsample.jpg"),
+        src: require("../Interests/interestsimages/knittingsample_smaller.jpg"),
         alt: "beige knitting sample with a cream blanket background",
       },
     ],
@@ -76,12 +76,12 @@ const data = [
     images: [
       {
         id: 1,
-        src: require("../Interests/interestsimages/sewing_2.png"),
+        src: require("../Interests/interestsimages/sewing_2.jpg"),
         alt: "blue and white check button down shirt",
       },
       {
         id: 2,
-        src: require("../Interests/interestsimages/sewing_1.png"),
+        src: require("../Interests/interestsimages/sewing_1.jpg"),
         alt: "multicolour check button down shirt",
       },
     ],

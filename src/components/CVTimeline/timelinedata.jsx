@@ -79,7 +79,7 @@ const data = [
     date: "September 2015 - September 2019",
     title: {
       en: "MA Hons in Architecture from the University of Edinburgh",
-      nl: "MA Hons in Architecture van de Universiteit van Edinburgh",
+      nl: "MA Hons in Architectuur van de Universiteit van Edinburgh",
     },
     location: {
       en: "Edinburgh, Scotland",
