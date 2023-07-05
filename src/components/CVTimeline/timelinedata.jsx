@@ -59,7 +59,7 @@ const data = [
     },
   },
   {
-    id: 6,
+    id: 5,
     date: {
       en: "January 2020 - August 2020",
       nl: "Januari 2020 - Augustus 2020",
@@ -75,7 +75,7 @@ const data = [
     },
   },
   {
-    id: 7,
+    id: 6,
     date: "September 2015 - September 2019",
     title: {
       en: "MA Hons in Architecture from the University of Edinburgh",
@@ -91,7 +91,7 @@ const data = [
     },
   },
   {
-    id: 8,
+    id: 7,
     date: {
       en: "February 2018 - August 2018",
       nl: "Februari 2018 - Augustus 2018",
